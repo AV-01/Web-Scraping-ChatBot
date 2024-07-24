@@ -44,17 +44,13 @@ class WebScraper:
                 links = self.extract_links(soup, url)
                 self.process_page(soup, url)
                 for link in links:
-                    if link.lower().endswith(".jpg") or link.lower().endswith(".png"):
-                        f = open("weird_links.txt", "a")
-                        f.write(link+"\n")
-                        f.close()
-                        print("weird link found")
+                    if link.lower().endswith(".jpg") or link.lower().endswith(".png") or link.lower().endswith(".bmp") or link.lower().endswith(".htm") or link.lower().endswith(".doc") or link.lower().endswith(".docx"):
                         continue
                     elif link.lower().endswith(".pdf"):
-                        f = open("weird_links.txt", "a")
-                        f.write(link+"\n")
-                        f.close()
-                        print("weird link found")
+                        response = requests.get(link)
+                        pdf = open(self.url_to_filename(link).replace(".txt", ""), 'wb')
+                        pdf.write(response.content)
+                        pdf.close()
                         continue
                     self.scrape(link)
             except:

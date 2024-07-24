@@ -43,5 +43,15 @@ if main_content:
     main_text = main_content.get_text("\n",strip=True)
 
 
-print(main_text)
+# print(main_text)
+
+
 # print("Text: \n", text_content)
+
+
+response = requests.get("https://rhs.rocklinusd.org/documents/2021_School_Accountability_Report_Card_Rocklin_High_School.pdf")
+
+# Write content in pdf file
+pdf = open("test.pdf", 'wb')
+pdf.write(response.content)
+pdf.close()
