@@ -41,10 +41,20 @@ class WebScraper:
         if success:
             try:
                 soup = BeautifulSoup(response.content, 'html.parser')
-                self.process_page(soup, url)
                 links = self.extract_links(soup, url)
+                self.process_page(soup, url)
                 for link in links:
-                    if link.lower().endswith(".jpg") or link.lower().endswith(".png") or link.lower().endswith(".pdf"):
+                    if link.lower().endswith(".jpg") or link.lower().endswith(".png"):
+                        f = open("weird_links.txt", "a")
+                        f.write(link+"\n")
+                        f.close()
+                        print("weird link found")
+                        continue
+                    elif link.lower().endswith(".pdf"):
+                        f = open("weird_links.txt", "a")
+                        f.write(link+"\n")
+                        f.close()
+                        print("weird link found")
                         continue
                     self.scrape(link)
             except:
@@ -66,15 +76,23 @@ class WebScraper:
         return parsed_url.netloc == self.domain
 
     def process_page(self, soup, url):
+        for script in soup(["script", "style", "nav", "header", "footer"]):
+            script.extract()
+
+        main_text = soup.get_text(strip=True)
+        main_content = soup.find("main")
+        if main_content:
+            main_text = main_content.get_text("\n",strip=True)
+
         # Extract text from the page
-        text = soup.get_text()
+        # text = soup.get_text()
 
         # Create a valid filename from the URL
         filename = self.url_to_filename(url)
 
         # Save the text to a file in the data folder
         with open(os.path.join(self.data_folder, filename), 'w', encoding='utf-8') as file:
-            file.write(text)
+            file.write(main_text)
 
     def url_to_filename(self, url):
         parsed_url = urlparse(url)
