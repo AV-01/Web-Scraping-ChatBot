@@ -5,6 +5,7 @@ from langchain.vectorstores import FAISS
 from langchain.chains.question_answering import load_qa_chain
 from langchain_community.chat_models import ChatOpenAI
 
+OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
 
 st.header("RHS Chatbot")
 
