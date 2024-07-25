@@ -8,7 +8,6 @@ from langchain_community.chat_models import ChatOpenAI
 OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
 
 st.header("RHS Chatbot")
-st.write("DB username:", st.secrets["OPENAI_API_KEY"])
 
 # Get input from user
 
