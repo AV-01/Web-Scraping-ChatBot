@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52df4d30-6efd-4394-9a66-91a699e341b1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/data-cleansing-for-pdf.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-cleansing.py" beforeDir="false" afterPath="$PROJECT_DIR$/data-cleansing-for-txt.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +33,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.chatbot.executor": "Run",
     "Python.data-cleansing-for-pdf.executor": "Run",
     "Python.data-cleansing.executor": "Run",
     "Python.main.executor": "Run",
