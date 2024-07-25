@@ -1,2 +1,5 @@
 langchain_community
 langchain
+faiss-cpu
+openai
+tiktoken
