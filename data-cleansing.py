@@ -17,7 +17,7 @@ def read_file(filename):
 
 def add_to_file(lines, filename = ""):
     with open(output_file, 'a', encoding='utf-8') as file:
-        file.write(filename+"\n")
+        file.write(filename.replace("rhs.rocklinusd.org","").replace(".html.txt","").replace(".txt","")+"\n")
         for line in lines:
             file.write(line + '\n')
 
