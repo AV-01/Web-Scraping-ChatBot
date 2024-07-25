@@ -3,6 +3,9 @@ from bs4 import BeautifulSoup
 from urllib.parse import urljoin, urlparse, urldefrag
 import os
 import json
+import time
+
+start = time.time()
 
 class WebScraper:
     def __init__(self, base_url):
@@ -108,7 +111,10 @@ class WebScraper:
         with open(self.status_file, 'w', encoding='utf-8') as file:
             json.dump(self.visited_links, file, indent=4)
 
-if __name__ == "__main__":
-    base_url = "https://rhs.rocklinusd.org/"
-    scraper = WebScraper(base_url)
-    scraper.scrape(base_url)
+base_url = "https://rhs.rocklinusd.org/"
+scraper = WebScraper(base_url)
+scraper.scrape(base_url)
+
+end = time.time()
+total_time = end-start
+print("Total time: " + str(total_time))

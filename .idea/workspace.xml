@@ -7,6 +7,7 @@
     <list default="true" id="52df4d30-6efd-4394-9a66-91a699e341b1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data-cleansing.py" beforeDir="false" afterPath="$PROJECT_DIR$/data-cleansing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webscraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/webscraper.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +35,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.data-cleansing.executor": "Run",
     "Python.main.executor": "Run",
     "Python.sitemap.executor": "Run",
     "Python.test.executor": "Run",
