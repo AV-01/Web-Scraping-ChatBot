@@ -48,7 +48,7 @@ class WebScraper:
                         continue
                     elif link.lower().endswith(".pdf"):
                         response = requests.get(link)
-                        pdf = open(self.url_to_filename(link).replace(".txt", ""), 'wb')
+                        pdf = open(os.path.join(self.data_folder,self.url_to_filename(link).replace(".txt", "")), 'wb')
                         pdf.write(response.content)
                         pdf.close()
                         continue
