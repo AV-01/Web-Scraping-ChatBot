@@ -26,7 +26,9 @@ class WebScraper:
             self.visited_links = {}
 
     def scrape(self, url):
+        print(url)
         normalized_url = self.normalize_url(url)
+        print(normalized_url)
         if normalized_url in self.visited_links:
             return
         print(f"Scraping: {url}")
