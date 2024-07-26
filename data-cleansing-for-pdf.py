@@ -14,6 +14,8 @@ def add_to_file(lines, filename = ""):
 
 for filename in os.listdir(directory):
     if filename.endswith('.pdf'):
+        if "spanish" in filename.lower() or "map" in filename.lower() or "w-9" in filename.lower() or "swim" in filename.lower() or "table" in filename.lower():
+            continue
         print("Cleansing: " + filename)
         try:
             pdf_reader = PdfReader("data/"+filename)
@@ -23,6 +25,14 @@ for filename in os.listdir(directory):
                 add_to_file(text.strip(), filename)
         except:
             continue
+
+lines_seen = set() # holds lines already seen
+outfile = open("cleansed-data/all-data-pdf-final.txt", "w", encoding="utf-8")
+for line in open("cleansed-data/all-data-pdf.txt", "r", encoding="utf-8"):
+    if line not in lines_seen: # not a duplicate
+        outfile.write(line)
+        lines_seen.add(line)
+outfile.close()
 
 end = time.time()
 total_time = end-start

@@ -19,9 +19,9 @@ with open("cleansed-data/all-data-cleansed.txt", 'r', encoding='utf-8') as file:
     for line in file:
         text += line
 
-# with open("cleansed-data/all-data-pdf.txt", 'r', encoding='utf-8') as file:
-#     for line in file:
-#         text += line
+with open("cleansed-data/all-data-pdf-final.txt", 'r', encoding='utf-8') as file:
+    for line in file:
+        text += line
 
 # Break it into chunks
 text_splitter = RecursiveCharacterTextSplitter(
