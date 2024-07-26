@@ -6,10 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="52df4d30-6efd-4394-9a66-91a699e341b1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatbot.py" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleansed-data/all-data-pdf.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cleansed-data/all-data-pdf.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-cleansing-for-pdf.py" beforeDir="false" afterPath="$PROJECT_DIR$/data-cleansing-for-pdf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/rhs.rocklinusd.org_documents_Counseling%20Documents_Counseling%20Attachments_Weekly%20Grade%20Check%20for%20Website.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webscraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/webscraper.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +45,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/aryav/IdeaProjects/Web Scraping ChatBot.streamlit"
   }
 }]]></component>
   <component name="RecentsManager">

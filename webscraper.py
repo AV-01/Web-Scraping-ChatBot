@@ -11,7 +11,7 @@ class WebScraper:
     def __init__(self, base_url):
         self.base_url = base_url
         self.domain = urlparse(base_url).netloc
-        self.data_folder = "data"
+        self.data_folder = "raw-data"
         self.status_file = os.path.join(self.data_folder, "scraped_links.json")
 
         # Create the data folder if it doesn't exist
@@ -47,7 +47,9 @@ class WebScraper:
                 links = self.extract_links(soup, url)
                 self.process_page(soup, url)
                 for link in links:
-                    if link.lower().endswith(".jpg") or link.lower().endswith(".png") or link.lower().endswith(".bmp") or link.lower().endswith(".htm") or link.lower().endswith(".doc") or link.lower().endswith(".docx"):
+                    if "spanish" in link.lower() or "photo" in link.lower():
+                        continue
+                    if link.lower().endswith(".jpg") or link.lower().endswith(".png") or link.lower().endswith(".bmp") or link.lower().endswith(".htm") or link.lower().endswith(".doc") or link.lower().endswith(".docx") or link.lower().endswith(".jpeg"):
                         continue
                     elif link.lower().endswith(".pdf"):
                         response = requests.get(link)
@@ -55,6 +57,7 @@ class WebScraper:
                         pdf.write(response.content)
                         pdf.close()
                         continue
+                    self.save_status()
                     self.scrape(link)
             except:
                 print("An error occured, but ignored")
@@ -68,6 +71,10 @@ class WebScraper:
             full_url = self.normalize_url(urljoin(self.base_url, href))
             if self.is_valid_link(full_url):
                 links.add(full_url)
+            else:
+                f = open("extra-links.txt", "a")
+                f.write(full_url + "\n")
+                f.close()
         return links
 
     def is_valid_link(self, url):
@@ -77,19 +84,11 @@ class WebScraper:
     def process_page(self, soup, url):
         for script in soup(["script", "style", "nav", "header", "footer"]):
             script.extract()
-
         main_text = soup.get_text(strip=True)
         main_content = soup.find("main")
         if main_content:
             main_text = main_content.get_text("\n",strip=True)
-
-        # Extract text from the page
-        # text = soup.get_text()
-
-        # Create a valid filename from the URL
         filename = self.url_to_filename(url)
-
-        # Save the text to a file in the data folder
         with open(os.path.join(self.data_folder, filename), 'w', encoding='utf-8') as file:
             file.write(main_text)
 
