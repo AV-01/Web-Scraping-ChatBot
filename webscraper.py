@@ -10,11 +10,13 @@ from threading import Lock
 start = time.time()
 
 class WebScraper:
-    def __init__(self, base_url):
+    def __init__(self, base_url, data_folder, ignore_patterns = [], ignore_extensions = ["jpg","xml","xlsx","png","bmp","htm","doc","dox","jpeg"]):
         self.base_url = base_url
         self.domain = urlparse(base_url).netloc
-        self.data_folder = "test-2-data"
+        self.data_folder = data_folder
         self.status_file = os.path.join(self.data_folder, "scraped_links.json")
+        self.ignore_patterns = ignore_patterns
+        self.ignore_extensions = ignore_extensions
 
         # Create the data folder if it doesn't exist
         if not os.path.exists(self.data_folder):
@@ -27,6 +29,16 @@ class WebScraper:
         else:
             self.visited_links = {}
         self.lock = Lock()
+
+    def should_ignore_link(self, link):
+        for extension in self.ignore_extensions:
+            if link.lower().endswith(extension):
+                return True
+        for pattern in self.ignore_patterns:
+            if pattern in link.lower():
+                return True
+        return False
+
     def download_pdf(self,url):
         try:
             response = requests.get(url)
@@ -67,9 +79,7 @@ class WebScraper:
             futures = []
             with ThreadPoolExecutor(max_workers=10) as executor:
                 for link in links:
-                    if "spanish" in link.lower() or "photo" in link.lower():
-                        continue
-                    if link.lower().endswith(".jpg") or link.lower().endswith(".xlsx") or link.lower().endswith(".png") or link.lower().endswith(".bmp") or link.lower().endswith(".htm") or link.lower().endswith(".doc") or link.lower().endswith(".docx") or link.lower().endswith(".jpeg"):
+                    if self.should_ignore_link(link):
                         continue
                     if link.lower().endswith(".pdf"):
                         futures.append(executor.submit(self.download_pdf, link))
@@ -129,7 +139,7 @@ class WebScraper:
             json.dump(self.visited_links, file, indent=4)
 
 base_url = "https://rhs.rocklinusd.org/"
-scraper = WebScraper(base_url)
+scraper = WebScraper(base_url, data_folder="test-1-data",ignore_patterns=["spanish", "photo"])
 scraper.scrape(base_url)
 
 end = time.time()
