@@ -4,6 +4,8 @@ from urllib.parse import urljoin, urlparse, urldefrag
 import os
 import json
 import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from threading import Lock
 
 start = time.time()
 
@@ -11,7 +13,7 @@ class WebScraper:
     def __init__(self, base_url):
         self.base_url = base_url
         self.domain = urlparse(base_url).netloc
-        self.data_folder = "raw-data"
+        self.data_folder = "test-2-data"
         self.status_file = os.path.join(self.data_folder, "scraped_links.json")
 
         # Create the data folder if it doesn't exist
@@ -24,45 +26,59 @@ class WebScraper:
                 self.visited_links = json.load(file)
         else:
             self.visited_links = {}
-
+        self.lock = Lock()
+    def download_pdf(self,url):
+        try:
+            response = requests.get(url)
+            response.raise_for_status()
+            normalized_url = self.normalize_url(url)
+            filename = self.url_to_filename(normalized_url).replace(".txt", ".pdf")
+            with open(os.path.join(self.data_folder, filename), 'wb') as pdf_file:
+                pdf_file.write(response.content)
+            with self.lock:
+                self.visited_links[normalized_url] = "success"
+        except requests.RequestException as e:
+            print(f"Failed to download PDF {url}: {e}")
+            with self.lock:
+                self.visited_links[normalized_url] = "failed"
     def scrape(self, url):
-        print(url)
         normalized_url = self.normalize_url(url)
-        print(normalized_url)
-        if normalized_url in self.visited_links:
-            return
+        with self.lock:
+            if normalized_url in self.visited_links:
+                return
+        self.visited_links[normalized_url] = "pending"
         print(f"Scraping: {url}")
 
         try:
             response = requests.get(url)
             response.raise_for_status()
-            success = True
-            self.visited_links[normalized_url] = "success"
+            with self.lock:
+                self.visited_links[normalized_url] = "success"
         except requests.RequestException as e:
             print(f"Failed to retrieve {url}: {e}")
-            success = False
-            self.visited_links[normalized_url] = "failed"
+            with self.lock:
+                self.visited_links[normalized_url] = "failed"
+            return
 
-        if success:
-            try:
-                soup = BeautifulSoup(response.content, 'html.parser')
-                links = self.extract_links(soup, url)
-                self.process_page(soup, url)
+        try:
+            soup = BeautifulSoup(response.content, 'html.parser')
+            links = self.extract_links(soup, url)
+            self.process_page(soup, url)
+            futures = []
+            with ThreadPoolExecutor(max_workers=10) as executor:
                 for link in links:
                     if "spanish" in link.lower() or "photo" in link.lower():
                         continue
-                    if link.lower().endswith(".jpg") or link.lower().endswith(".png") or link.lower().endswith(".bmp") or link.lower().endswith(".htm") or link.lower().endswith(".doc") or link.lower().endswith(".docx") or link.lower().endswith(".jpeg"):
+                    if link.lower().endswith(".jpg") or link.lower().endswith(".xlsx") or link.lower().endswith(".png") or link.lower().endswith(".bmp") or link.lower().endswith(".htm") or link.lower().endswith(".doc") or link.lower().endswith(".docx") or link.lower().endswith(".jpeg"):
                         continue
-                    elif link.lower().endswith(".pdf"):
-                        response = requests.get(link)
-                        pdf = open(os.path.join(self.data_folder,self.url_to_filename(link).replace(".txt", "")), 'wb')
-                        pdf.write(response.content)
-                        pdf.close()
-                        continue
-                    self.save_status()
-                    self.scrape(link)
-            except:
-                print("An error occured, but ignored")
+                    if link.lower().endswith(".pdf"):
+                        futures.append(executor.submit(self.download_pdf, link))
+                    else:
+                        futures.append(executor.submit(self.scrape, link))
+                for future in as_completed(futures):
+                    future.result()
+        except Exception as e:
+            print(f"{e}")
 
         self.save_status()
 
