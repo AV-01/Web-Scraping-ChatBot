@@ -3,3 +3,6 @@ langchain
 faiss-cpu
 openai
 tiktoken
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib
