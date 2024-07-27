@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52df4d30-6efd-4394-9a66-91a699e341b1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/credentials.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cleansed-data/all-data-cleansed.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cleansed-data/all-data-pdf-final.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cleansed-data/all-data-pdf.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cleansed-data/all-data.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-cleansing-for-pdf.py" beforeDir="false" afterPath="$PROJECT_DIR$/data-cleansing-for-pdf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-cleansing-for-txt.py" beforeDir="false" afterPath="$PROJECT_DIR$/data-cleansing-for-txt.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
@@ -39,6 +43,7 @@
   "keyToString": {
     "Python.chatbot.executor": "Run",
     "Python.data-cleansing-for-pdf.executor": "Run",
+    "Python.data-cleansing-for-txt.executor": "Run",
     "Python.data-cleansing.executor": "Run",
     "Python.main.executor": "Run",
     "Python.sitemap.executor": "Run",

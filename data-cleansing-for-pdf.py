@@ -3,7 +3,7 @@ import os
 import time
 
 start = time.time()
-directory = 'data/'
+directory = 'raw-data/'
 output_file = 'cleansed-data/all-data-pdf.txt'
 
 
@@ -18,12 +18,13 @@ for filename in os.listdir(directory):
             continue
         print("Cleansing: " + filename)
         try:
-            pdf_reader = PdfReader("data/"+filename)
+            pdf_reader = PdfReader("raw-data/"+filename)
             text = ""
             for page in pdf_reader.pages:
                 text += page.extract_text()
                 add_to_file(text.strip(), filename)
-        except:
+        except Exception as e:
+            print(e)
             continue
 
 lines_seen = set() # holds lines already seen

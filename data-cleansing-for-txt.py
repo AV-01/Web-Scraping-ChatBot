@@ -2,7 +2,7 @@ import os
 import time
 
 start = time.time()
-directory = 'data/'
+directory = 'raw-data/'
 output_file = 'cleansed-data/all-data.txt'
 
 if not os.path.exists(output_file):
