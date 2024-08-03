@@ -3,7 +3,7 @@ import os
 import time
 
 start = time.time()
-directory = 'raw-data/'
+directory = 'rhs-data/'
 output_file = 'cleansed-data/all-data-pdf.txt'
 
 
@@ -18,7 +18,7 @@ for filename in os.listdir(directory):
             continue
         print("Cleansing: " + filename)
         try:
-            pdf_reader = PdfReader("raw-data/"+filename)
+            pdf_reader = PdfReader(directory+filename)
             text = ""
             for page in pdf_reader.pages:
                 text += page.extract_text()

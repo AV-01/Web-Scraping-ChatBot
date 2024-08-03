@@ -5,15 +5,685 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52df4d30-6efd-4394-9a66-91a699e341b1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/cleansed-data/all-data-cleansed.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cleansed-data/all-data-pdf-final.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cleansed-data/all-data-pdf.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cleansed-data/all-data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_A-Z.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_A-Z_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Career-Technical-Education_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Faculty-and-Staff_Adrienne-Tacla_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Faculty-and-Staff_Angela-Parker_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Faculty-and-Staff_April-Kenitzer_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Faculty-and-Staff_Bill-Kimmel_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Faculty-and-Staff_Brent-Carlson_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Faculty-and-Staff_Chris-Knorzer_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Faculty-and-Staff_Cinny-Toepke_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Faculty-and-Staff_Colleen-Crowe_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Faculty-and-Staff_Craig-Waechtler_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Faculty-and-Staff_Dale-Eckenburg_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Faculty-and-Staff_Dan-Pereira_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Faculty-and-Staff_Dave-Muscarella_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Faculty-and-Staff_Debi-DeVinna_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Faculty-and-Staff_Diane-Cameron_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Faculty-and-Staff_Emily-Mitchell_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Faculty-and-Staff_Eric-Sturgeon_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Faculty-and-Staff_Geoffrey-Clarion_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Faculty-and-Staff_Grant-Depue_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Faculty-and-Staff_Greg-Benzel_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Faculty-and-Staff_Holly-Repanich_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Faculty-and-Staff_Jaimie-Tippets_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Faculty-and-Staff_James-Grace_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Faculty-and-Staff_Jason-Adams_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Faculty-and-Staff_Jeff-James_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Faculty-and-Staff_Jennifer-Kaiser_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Faculty-and-Staff_Jerica-Siska_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Faculty-and-Staff_John-Kirk_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Faculty-and-Staff_John-Thompson_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Faculty-and-Staff_Kristin-Hamm_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Faculty-and-Staff_Kristy-Ramos_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Faculty-and-Staff_Laura-Douglas_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Faculty-and-Staff_Maria-DeMeyer_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Faculty-and-Staff_Mark-Hardy_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Faculty-and-Staff_Mary-Jimenez_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Faculty-and-Staff_Matt-Bumgardner_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Faculty-and-Staff_Matt-Eckman_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Faculty-and-Staff_Michael-Cahill_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Faculty-and-Staff_Michael-Knight_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Faculty-and-Staff_Michael-Trejo_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Faculty-and-Staff_Michael-Wagner_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Faculty-and-Staff_Michelle-DeMaria_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Faculty-and-Staff_Michelle-Fitzpatrick_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Faculty-and-Staff_Nicholas-Holsopple_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Faculty-and-Staff_Paul-Morrison_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Faculty-and-Staff_Paul-Werner_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Faculty-and-Staff_Pilar-Padilla_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Faculty-and-Staff_Rachelle-Sloan_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Faculty-and-Staff_Robyn-Paterson_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Faculty-and-Staff_Ryan-Spears_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Faculty-and-Staff_Sarah-Blankenship_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Faculty-and-Staff_Sarah-Gillette_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Faculty-and-Staff_Scott-Bergemann_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Faculty-and-Staff_Shawn-Spiess_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Faculty-and-Staff_Stephanie-Arino_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Faculty-and-Staff_Steve-Taylor_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Faculty-and-Staff_Tara-McCullough_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Faculty-and-Staff_Teri-Ellenburg_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Faculty-and-Staff_Tim-Hurrianko_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Faculty-and-Staff_Tim-Kenney_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Faculty-and-Staff_Tom-Douglass_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Faculty-and-Staff_Valerie-Kramer_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Faculty-and-Staff_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Language-Arts_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Mathematics_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Science_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Social-Science_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Special-Education_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_Visual-and-Performing-Arts_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_World-Languages_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Academics_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Activities_ASB-Application-Information_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Activities_Clubs_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Activities_Communication_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Activities_Dances_Dates--Cost--Descriptions_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Activities_Dances_Dress-Codes_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Activities_Dances_Freak-Dance-Policy_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Activities_Dances_GUEST-PASSES_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Activities_Dances_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Activities_Forms_Faculty_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Activities_Forms_Student-Forms_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Activities_Forms_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Activities_Rallies_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Activities_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Athletics_Advertising--Sponsorships_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Athletics_Alumni_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Athletics_Athlete-Registration_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Athletics_Coaches-ContactsTeam-Websites_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Athletics_Equity--Title-IX-Participation_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Athletics_Helpful-Links_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Athletics_Important-Athletic-Dates_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Athletics_Inside-Athletics_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Athletics_Physicals_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Athletics_Rainy-Day-Spring-Schedule_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Athletics_Summer-Camp-Information_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Athletics_Weight-Room-Calendar_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Athletics_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Calendar.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Calendar_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Counseling_About_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Counseling_Academic-Resources_Graduation-Requirements_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Counseling_Academic-Resources_No-Mark-NM-Info-_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Counseling_Academic-Resources_Parent-Resources_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Counseling_Academic-Resources_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Counseling_Advanced-Placement-Information_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Counseling_Class-of-2025_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Counseling_Class-of-2026_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Counseling_Class-of-2027_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Counseling_Class-of-2028_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Counseling_Community-Service-Opportunities_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Counseling_Peer-Counseling_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Counseling_Registrar-transcripts_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Counseling_Valedictorian-Selection_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Counseling_Wellness_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Counseling_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_FlexiSCHED_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Info_Administration_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Info_Attendance_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Info_Bell-Schedule_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Info_Calendar_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Info_Graduation_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Info_Map_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Info_Site-Council_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Info_Teacher-Center_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Info_Thunder-Forecast_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Info_Uniform-Complaint-Procedure_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Info_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Media_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_RegistrarTranscripts_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Schoology_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Staff-Directory.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_Staff-Directory_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_documents_2019 - 20 New UCP Notice.pdf.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_documents_2021_School_Accountability_Report_Card_Rocklin_High_School.pdf.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_documents_Athletics_RHS Physical Form.pdf.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_documents_Athletics_RHS%20Physical%20Form.pdf.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_documents_Athletics_Rocklin Parent Playbook.pdf.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_documents_Athletics_Signing Day Athlete Info -3-.pdf.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_documents_Counseling Documents_Community Service form 3-2017 -new-.pdf.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_documents_Counseling Documents_Main Page Links_ALTERNATIVE EDUCATION.pdf.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_documents_Counseling Documents_Main Page Links_Academic-Enrichment-at-Sierra.pdf.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_documents_Counseling Documents_Registrar Docs_Cal Grant GPA Opt-OUt Form.PDF.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_documents_Counseling Documents_Registrar Docs_REGISTRAR-Cal Grant GPA Information Release Form -2-.pdf.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_documents_Counseling%20Documents_Main%20Page%20Links_ADVANCED%20PLACEMENT.pdf.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_documents_Counseling%20Documents_Main%20Page%20Links_HIGHER%20EDUCATION%20ADMISSION%20REQUIREMENT1.pdf.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_documents_Counseling%20Documents_Main%20Page%20Links_Resource.pdf.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_documents_Counseling%20Documents_Registrar%20Docs_Cal%20Grant%20GPA%20Opt-OUt%20Form.PDF.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_documents_Counseling%20Documents_Registrar%20Docs_REGISTRAR-Cal%20Grant%20GPA%20Information%20Release%20Form%20-2-.pdf.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_documents_Purchase Requisition Template 1 -FILLABLE-.pdf.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_documents_Purchase Requisition Template.pdf.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_documents_Purchase Requisitions.pdf.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_documents_RHS-2023-24-Online-Handbook.pdf.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_documents_RHS-Campus-Map-23-24-AED-Bathrooms.pdf.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_documents_RHS-Campus-Map-23-24-Bathrooms-Only.pdf.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_documents_UCP Notice 2015-16_from CDE_Updated for RUSD_8.24.15.pdf.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_documents_W-9 Blank Form.pdf.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_index.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_scripts_fw-calendar_calendar.php.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_AP-Calculus.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_AP-Calculus_Syllabus_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_AP-Calculus_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_AP-Chemistry.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_AP-Chemistry_documents_AP syllabus - 13-14.pdf.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_AP-Chemistry_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_AP-Economics.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_AP-Economics_Syllabus_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_AP-Economics_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_AP-Environmental-Science.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_AP-Environmental-Science_1st-Semester-Topics_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_AP-Environmental-Science_2nd-Semester-Topics_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_AP-Environmental-Science_documents_Copyof2013-2014SYLLABUS.pdf.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_AP-Environmental-Science_documents_story line ngss short.pdf.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_AP-Environmental-Science_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_AP-Government.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_AP-Government_Calendar_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_AP-Government_documents_AP U.S. Gov and Politics course syllabus 2013.pdf.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_AP-Government_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_AP-Literature.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_AP-Literature_Icarus_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_AP-Literature_Syllabus_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_AP-Literature_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_AP-Statistics.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_AP-Statistics_Syllabus_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_AP-Statistics_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_AP-Studio-Art.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_AP-Studio-Art_Syllabus_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_AP-Studio-Art_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_AP-US-History.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_AP-US-History_Summer-Work_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_AP-US-History_Syllabus_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_AP-US-History_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_AP-World-History.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_AP-World-History_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Advanced-Algebra-2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Advanced-Algebra-2_Calendar-and-Grades_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Advanced-Algebra-2_Class-Information_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Advanced-Algebra-2_Resources_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Advanced-Algebra-2_Textbook_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Advanced-Algebra-2_documents_ADVA2Syllabus.pdf.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Advanced-Algebra-2_documents_ParentInfoBack2School2015.pdf.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Advanced-Algebra-2_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Advanced-Ceramics.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Advanced-Ceramics_Syllabus_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Advanced-Ceramics_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Advanced-Geography.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Advanced-Geography_Syllabus_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Advanced-Geography_Test_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Advanced-Geography_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Algebra-2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Algebra-2_documents_Algebra 2 Syllabus 2015-6 -1-.pdf.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Algebra-2_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Anatomy.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Anatomy_documents_Syllabus 2013-14.pdf.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Anatomy_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Art-1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Art-1_Advanced-Art-AP-Studio-Art_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Art-1_Art-1-_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Art-1_Art-2_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Art-1_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Baseball.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Baseball_2024-Fall-Ball_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Baseball_2024-Frosh-Soph-Schedule_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Baseball_2024-JV-Schedule_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Baseball_2024-Varsity-Schedule_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Baseball_Alumni-to-Play-College-or-Professional_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Baseball_Coaching-Staff_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Baseball_Frosh-Roster_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Baseball_JV-Roster_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Baseball_Loyal-Sponsors_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Baseball_Varsity-Roster_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Baseball_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Biology.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Biology_First-semester_DNA-to-Organism_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Biology_First-semester_Heredity_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Biology_First-semester_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Biology_Kimmel-Biology-Agendas_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Biology_Second-semester_Ecology_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Biology_Second-semester_Evolution_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Biology_Second-semester_Student-Project_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Biology_Second-semester_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Biology_documents_syllabus.pdf.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Biology_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Boys-Basketball.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Boys-Basketball_Coaching-Staff_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Boys-Basketball_History-of-Rocklin-Basketball_2023-2024-Results_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Boys-Basketball_History-of-Rocklin-Basketball_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Boys-Basketball_Little-Thunder-Basketball_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Boys-Basketball_Rocktown-Ballers-Payment-Center_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Boys-Basketball_Schedule_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Boys-Basketball_Thunder-Golf-Tournament_Sponsorship-Opportunities_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Boys-Basketball_Thunder-Golf-Tournament_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Boys-Basketball_TryoutPractice-Calendar_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Boys-Basketball_documents_2017-18 RBC REGISTRATION FORM.pdf.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Boys-Basketball_documents_2017-18 Rocklin Basketball Club Flier.pdf.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Boys-Basketball_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Boys-Golf.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Boys-Golf_-Varsity-Roster_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Boys-Golf_2024-JV-Schedule_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Boys-Golf_2024-Varsity-Schedule_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Boys-Golf_Coaching-Staff_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Boys-Golf_Golf-Links_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Boys-Golf_JV-Roster_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Boys-Golf_PlayerParent-Forms_CIFRHS-Codes-of-Conduct_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Boys-Golf_PlayerParent-Forms_Dress-Code_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Boys-Golf_PlayerParent-Forms_Parent-Info-Night_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Boys-Golf_PlayerParent-Forms_Social-Media-Policy_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Boys-Golf_PlayerParent-Forms_Spectator-Guidelines_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Boys-Golf_PlayerParent-Forms_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Boys-Golf_Records_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Boys-Golf_Thunder-Invitational_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Boys-Golf_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Boys-Soccer.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Boys-Soccer_2023-24-Schedule_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Boys-Soccer_3v3-U9-U11-Tournament_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Boys-Soccer_Coaching-Staff_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Boys-Soccer_Training-Schedule_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Boys-Soccer_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Boys-Volleyball_Coaching-Staff_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Boys-Volleyball_RHS-Boys-Volleyball-Calendar_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Boys-Volleyball_Schedule_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Boys-Volleyball_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Boys-Water-Polo_2024-Game-Schedule_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Boys-Water-Polo_Apparel_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Boys-Water-Polo_Calendar_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Boys-Water-Polo_Coaches-Info_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Boys-Water-Polo_Fundraising_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Boys-Water-Polo_HonorsAwards_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Boys-Water-Polo_Hudl_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Boys-Water-Polo_Remind-101_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Boys-Water-Polo_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Career-Center.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Career-Center_Career-Exploration_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Career-Center_College-Admissions-Professionals_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Career-Center_College-Planning_Applying-to-Colleges_Appealing-to-Colleges_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Career-Center_College-Planning_Applying-to-Colleges_Application-Deadlines_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Career-Center_College-Planning_Applying-to-Colleges_College-Admission-Waitlists--Appeals_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Career-Center_College-Planning_Applying-to-Colleges_Letters-of-Recommendation_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Career-Center_College-Planning_Applying-to-Colleges_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Career-Center_College-Planning_College-Planning-Workshops_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Career-Center_College-Planning_Finding-the-Right-College_College-Fairs_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Career-Center_College-Planning_Finding-the-Right-College_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Career-Center_College-Planning_Scholarships--Financial-Aid_Assist-a-Grad_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Career-Center_College-Planning_Scholarships--Financial-Aid_FAFSACADAA_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Career-Center_College-Planning_Scholarships--Financial-Aid_Scholarship-Websites_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Career-Center_College-Planning_Scholarships--Financial-Aid_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Career-Center_College-Planning_Sierra-College_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Career-Center_College-Planning_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Career-Center_Junior-Rocklin-Summer-Civic-Program_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Career-Center_Military-and-ASVAB-Information_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Career-Center_SATACT_SATACT-Preparation_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Career-Center_SATACT_Test-Comparison_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Career-Center_SATACT_Test-Dates--Score-Sends_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Career-Center_SATACT_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Career-Center_Schedule-Meetings_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Career-Center_Work-Permits_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Career-Center_documents_Academic-Enrichment-at-Sierra-College.pdf.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Career-Center_documents_College Planning_16-17_Letter-of-Recommendation-Request-Form.2023.pdf.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Career-Center_documents_What to do if you are waitlisted.pdf.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Career-Center_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Ceramics.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Ceramics_Advanced-Ceramics-and-Sculpture_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Ceramics_Ceramics-and-Sculpture-1_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Ceramics_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Cheer.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Cheer_24-25-New-Squad-Info_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Cheer_Calendar_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Cheer_Coaching-Staff_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Cheer_Fundraising_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Cheer_Parent-InfoResources_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Cheer_RJT-Instructor-Info_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Cheer_documents_Team Guidelines and Expectations- signature form.pdf.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Cheer_documents_Team Guidelines and Expectations.pdf.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Cheer_documents_Uniform Resale Instructions 2019.pdf.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Cheer_documents_camp medical form.pdf.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Cheer_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Chemistry.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Chemistry_documents_Chemistry Syllabus 13-14.pdf.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Chemistry_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Choir.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Choir_Choir-Syllabus_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Choir_Email-Questions-for-Choir-or-Piano-Here_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Choir_RHS-Choir-Audio-and-Video_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Choir_RHS-Choir-Auditions_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Choir_RHS-Choir-Calendar_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Choir_RHS-Piano-Lab_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Choir_RHS-Student-Conductor_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Choir_Trip--Fundraising_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Choir_documents_RHS Student Conductor Application - Requirements.pdf.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Choir_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Cross-Country_Coaching-Staff_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Cross-Country_JV-Roster_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Cross-Country_Links_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Cross-Country_Schedule_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Cross-Country_Varsity-Roster_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Cross-Country_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Dance-1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Dance-1_assignments_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Dance-1_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Drama-Club.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Drama-Club_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_ELD.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_ELD_Syllabus_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_ELD_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Flag-Football-Girls.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Flag-Football-Girls_2024-Youth-Flag-Football-Camp_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Flag-Football-Girls_Coaching-Staff_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Flag-Football-Girls_Girls-of-The-Gridiron-Tournament_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Flag-Football-Girls_Practice-Schedule_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Flag-Football-Girls_Remind-Communication_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Flag-Football-Girls_Schedule_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Flag-Football-Girls_Section-Information_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Flag-Football-Girls_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Football.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Football_2024-Game-Schedule_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Football_2024-VIP-Experience_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Football_Annual-Cornhole-Tourney_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Football_BSN-TEAM-STORE_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Football_Coaching-Staff_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Football_Freshman-2024-Info_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Football_History_Past-Season-Results_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Football_History_Records_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Football_History_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Football_MaxPreps_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Football_Next-Level-7-on-7_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Football_Recruiting-Presentation_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Football_Sponsorship-_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Football_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_French-1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_French-1_RHS-French_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_French-1_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Geography.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Geography_Syllabus_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Geography_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Geometry.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Geometry_Syllabus_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Geometry_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Girls-Basketball_2023-2024-Game-Schedule_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Girls-Basketball_Coaching-Staff_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Girls-Basketball_Little-Thunder-K-6_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Girls-Basketball_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Girls-Golf.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Girls-Golf_2023-JV-Schedule_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Girls-Golf_2023-Varsity-Schedule_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Girls-Golf_Coaches_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Girls-Golf_JV-Roster_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Girls-Golf_School-Records_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Girls-Golf_Social-Media-Gudielines_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Girls-Golf_Spectator-Guidelines_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Girls-Golf_Varsity-Roster_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Girls-Golf_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Girls-Lacrosse.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Girls-Lacrosse_2023-Team-Calendar_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Girls-Lacrosse_2024-Game-Schedule_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Girls-Lacrosse_Coaches-Information_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Girls-Lacrosse_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Girls-Soccer.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Girls-Soccer_Coaching-Staff_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Girls-Soccer_Informative-Articles_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Girls-Soccer_Schedule_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Girls-Soccer_Social-Media-Policy_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Girls-Soccer_Training-Schedule_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Girls-Soccer_Winter-Sports-Parent-Night_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Girls-Soccer_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Girls-Volleyball.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Girls-Volleyball_Coaches-Profile_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Girls-Volleyball_Final-Results-and-All-League_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Girls-Volleyball_Player-Websites_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Girls-Volleyball_RHS-Girls-Volleyball-Calendar_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Girls-Volleyball_Schedule_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Girls-Volleyball_Summer-Camp_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Girls-Volleyball_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Girls-Water-Polo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Girls-Water-Polo_2023-Water-Polo-Practice-Schedule_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Girls-Water-Polo_2024-Match-Schedule_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Girls-Water-Polo_Coaches-Info_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Girls-Water-Polo_Communication_Team-DinnersEvents_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Girls-Water-Polo_Communication_Tournaments-Maps-and-Links_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Girls-Water-Polo_Communication_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Girls-Water-Polo_ParentsVolunteer_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Girls-Water-Polo_Program-Philosophy_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Girls-Water-Polo_Team-Suit--Gear_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Girls-Water-Polo_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Government.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Government_Calendar_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Government_Constitution_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Government_Executive-Branch---President_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Government_Fundamentals-of-Government_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Government_Judicial-Branch---Supreme-Court_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Government_Legislative-Branch---Congress_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Government_Political-PartiesIdeology_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Government_documents_gov. course 2013 syllabus.pdf.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Government_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Health.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Health_Syllabus_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Health_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_ILS.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_ILS_Syllabus_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_ILS_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Integrated-1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Integrated-1_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Journalism.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Journalism_Flash-home-page_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Journalism_Journalism-1_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Journalism_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_LA-1-Advanced.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_LA-1-Advanced_Syllabus_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_LA-1-Advanced_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_LA-1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_LA-1_Syllabus_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_LA-1_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_LA-2-Advanced.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_LA-2-Advanced_Mr.-Hurriankos-Announcements_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_LA-2-Advanced_Syllabus_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_LA-2-Advanced_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_LA-2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_LA-2_Syllabus_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_LA-2_documents_LAII syllabus 2012-13-1-.docx.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_LA-2_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_LA-3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_LA-3_Welcome-to-Language-Arts-3-Honors_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_LA-3_Welcome-to-Language-Arts-3_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_LA-3_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_LA-4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_LA-4_Syllabus_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_LA-4_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Lacrosse_2024-Boys-Schedule_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Lacrosse_2024-Season-Information_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Lacrosse_2024-Sponsors_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Lacrosse_Boys-JV-Roster_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Lacrosse_Boys-Varsity-Roster_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Lacrosse_Coaches-Information_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Lacrosse_Fall-Ball-2023_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Lacrosse_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Marine-Biology.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Marine-Biology_First-semester-outline_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Marine-Biology_Second-semester-outline_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Marine-Biology_Syllabus_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Marine-Biology_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Math-Analysis.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Math-Analysis_Syllabus_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Math-Analysis_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Multi-Cultural.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Multi-Cultural_Syllabus_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Multi-Cultural_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_PE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_PE_FAQs_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_PE_Flex-Period-PE-Make-Ups_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_PE_Medical-Questions_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_PE_PE-Electives_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_PE_PE1_DanceTumbling_Ballet-Skills_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_PE_PE1_DanceTumbling_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_PE_PE1_Fitness-Lab_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_PE_PE1_Swimming_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_PE_PE1_Volleyball_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_PE_PE1_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_PE_RHS-Fitness-for-Life_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_PE_RHS-PE-Gradiing-Information_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_PE_documents_Course Descriptions_walking permission slip.pdf.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_PE_documents_Fitness Testing Tables_2014 All Tests HFZ Tables.pdf.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_PE_documents_Fitness Testing Tables_2014 Mile Run HFZ Tables.pdf.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_PE_documents_Freshmen_Ballet Vocab.pdf.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_PE_documents_Freshmen_VOLLEYBALL NOTES.pdf.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_PE_documents_Modified PE parent letter.pdf.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_PE_documents_SAMPLE NOTE FOR PE.pdf.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_PE_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Physics.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Physics_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Pre_CalculusTrigonometry-Honors.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Pre_CalculusTrigonometry-Honors_Syllabus_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Pre_CalculusTrigonometry-Honors_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Psychology.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Psychology_Syllabus_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Psychology_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_RSP.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_RSP_Events_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_RSP_Syllabus_9th10th-Grade-RSP_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_RSP_Syllabus_Syllabus--9th11th12th-grades--RochfordFitzpatrick--13-14_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_RSP_Syllabus_Tanners-Syllabus_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_RSP_Syllabus_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_RSP_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_SDAIE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_SDAIE_Syllabus_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_SDAIE_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_SDC.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_SDC_Basic-Algebra_Syllabus_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_SDC_Basic-Algebra_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_SDC_Basic-Pre-Algebra_Syllabus_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_SDC_Basic-Pre-Algebra_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_SDC_Basic-Science_Syllabus_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_SDC_Basic-Science_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_SDC_Basic-Social-Studies_Syllabus_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_SDC_Basic-Social-Studies_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_SDC_Language-Arts_Basic-English-Syllabus_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_SDC_Language-Arts_Basic-Literature-Syllabus_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_SDC_Language-Arts_Basic-Writing-Syllabus_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_SDC_Language-Arts_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_SDC_Syllabus_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_SDC_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_SMD.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_SMD_Syllabus_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_SMD_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Sand-Volleyball-Girls.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Sand-Volleyball-Girls_Coaching-Staff_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Sand-Volleyball-Girls_Schedule_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Sand-Volleyball-Girls_Tryout-and-Practice-Info_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Sand-Volleyball-Girls_Varsity-Roster_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Sand-Volleyball-Girls_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Softball_2024-Schedule_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Softball_Alumni_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Softball_Calendar_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Softball_Coaching-Staff_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Softball_JV-Roster_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Softball_Varsity-Roster_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Softball_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Speech-Debate.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Speech-Debate_Syllabus_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Speech-Debate_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Statistics.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Statistics_Parent-Information-for-Back-to-School-Night_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Statistics_Syllabus_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Statistics_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Swimming_------------------------------General-Information_Practice-Schedule_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Swimming_------------------------------General-Information_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Swimming_Fundraising_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Swimming_Meet-Schedule_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Swimming_Results--Times_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Swimming_Volunteer-Sign-Up_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Swimming_documents_2023-woodcreek-invite-results.pdf.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Swimming_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Tennis---Boys.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Tennis---Boys_2024-Schedule_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Tennis---Boys_2024-Summer-Program_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Tennis---Boys_Coaching-Staff_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Tennis---Boys_JV-Roster_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Tennis---Boys_NorCal-Team-Tournament_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Tennis---Boys_Past-Results_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Tennis---Boys_Tennis-Links_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Tennis---Boys_Varsity-Roster_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Tennis---Boys_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Tennis---Girls.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Tennis---Girls_2024-Schedule_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Tennis---Girls_2024-Summer-Camp_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Tennis---Girls_2024-Summer-Program_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Tennis---Girls_Coaching-Staff_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Tennis---Girls_JV-Roster_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Tennis---Girls_NorCal-Team-Tournament_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Tennis---Girls_Results_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Tennis---Girls_Team-Activity-Schedule_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Tennis---Girls_Tennis-Links_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Tennis---Girls_Varsity-Roster_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Tennis---Girls_Videos_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Tennis---Girls_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Theater.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Theater_Drama-Club_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Theater_Technical-Theatre_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Theater_Theatre-1_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Theater_Theatre-23_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Theater_Theatre-4_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Theater_ThunderCat_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Theater_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Track-and-Field_2024-Schedule_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Track-and-Field_Athlete-Expectations_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Track-and-Field_Coaching-Staff_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Track-and-Field_Distance-Crew_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Track-and-Field_JVVarsity-Rosters_JV-Boys-Roster_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Track-and-Field_JVVarsity-Rosters_JV-Girls-Roster_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Track-and-Field_JVVarsity-Rosters_Varsity-Boys-Roster_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Track-and-Field_JVVarsity-Rosters_Varsity-Girls-Roster_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Track-and-Field_JVVarsity-Rosters_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Track-and-Field_Nike-and-Running-Warehouse-_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Track-and-Field_Results_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Track-and-Field_SummerOff-Season_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Track-and-Field_Thunder-Invitational_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Track-and-Field_Volunteer-Links_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Track-and-Field_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Track-and-field.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_U.S.-History.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_U.S.-History_Syllabus_Interactive-Notebook_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_U.S.-History_Syllabus_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_U.S.-History_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_World-History.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_World-History_Interactive-Notebook_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_World-History_Syllabus_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_World-History_Turnitin.com_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_World-History_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Wrestling.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Wrestling_Boys-JV-Roster_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Wrestling_Boys-Varsity-Roster_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Wrestling_Coaching-Staff_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Wrestling_Girls-Roster_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Wrestling_Google-Calendar---All-Events_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Wrestling_Off-Season-Conditioning_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Wrestling_Schedule_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Wrestling_Wrestling-Links_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Wrestling_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Yearbook.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Yearbook_Program-history_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Yearbook_Publication-Policies_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Yearbook_Senior-Ad-Information_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Yearbook_documents_Adviser Protection.pdf.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Yearbook_documents_BoardPolicies.pdf.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Yearbook_documents_Publications Policy - JEA.pdf.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_Yearbook_index.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/rhs.rocklinusd.org_subsites_softball.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rhs-data/scraped_links.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleansed-data/all-data-cleansed.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleansed-data/all-data-pdf-final.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleansed-data/all-data-pdf.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleansed-data/all-data.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatbot.py" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data-cleansing-for-pdf.py" beforeDir="false" afterPath="$PROJECT_DIR$/data-cleansing-for-pdf.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data-cleansing-for-txt.py" beforeDir="false" afterPath="$PROJECT_DIR$/data-cleansing-for-txt.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webscraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/webscraper.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,17 +700,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2jhWehu56PpSoQdTeUHXlDouCcE" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "Python.chatbot.executor": "Run",
     "Python.data-cleansing-for-pdf.executor": "Run",
     "Python.data-cleansing-for-txt.executor": "Run",
@@ -53,7 +726,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/aryav/IdeaProjects/Web Scraping ChatBot"
+    "last_opened_file_path": "C:/Users/aryav/IdeaProjects/tournament-platform"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -74,5 +747,8 @@
       <updated>1721839887990</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

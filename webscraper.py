@@ -139,7 +139,7 @@ class WebScraper:
             json.dump(self.visited_links, file, indent=4)
 
 base_url = "https://rhs.rocklinusd.org/"
-scraper = WebScraper(base_url, data_folder="test-1-data",ignore_patterns=["spanish", "photo"])
+scraper = WebScraper(base_url, data_folder="rhs-data",ignore_patterns=["spanish","photo"])
 scraper.scrape(base_url)
 
 end = time.time()

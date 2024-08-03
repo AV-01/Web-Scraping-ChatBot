@@ -2,7 +2,7 @@ import os
 import time
 
 start = time.time()
-directory = 'raw-data/'
+directory = 'rhs-data/'
 output_file = 'cleansed-data/all-data.txt'
 
 if not os.path.exists(output_file):
