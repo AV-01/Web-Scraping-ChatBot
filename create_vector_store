@@ -1,0 +1,44 @@
+import os
+import pickle
+import streamlit as st
+from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain.embeddings.openai import OpenAIEmbeddings
+from langchain.vectorstores import FAISS
+from langchain.chains.question_answering import load_qa_chain
+from langchain_community.chat_models import ChatOpenAI
+
+
+OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
+
+INDEX_DIR = "faiss_index_dir"
+EMBEDDINGS_FILE = "embeddings.pkl"
+
+embeddings = OpenAIEmbeddings(openai_api_key=OPENAI_API_KEY)
+
+# get the text data
+text = ""
+with open("cleansed-data/all-data-cleansed.txt", 'r', encoding='utf-8') as file:
+    text += file.read()
+with open("cleansed-data/all-data-pdf-final.txt", 'r', encoding='utf-8') as file:
+    text += file.read()
+
+# chunk the data
+text_splitter = RecursiveCharacterTextSplitter(
+    separators="\n",
+    chunk_size=1000,
+    chunk_overlap=150,
+    length_function=len
+)
+chunks = text_splitter.split_text(text)
+
+# generate embeddings
+# create vector store - FAISS
+vector_store = FAISS.from_texts(chunks, embeddings)
+
+# Save the vector store
+vector_store.save_local(INDEX_DIR)
+
+# save the index
+with open(EMBEDDINGS_FILE, 'wb') as f:
+        pickle.dump(vector_store, f)
+print("success!")

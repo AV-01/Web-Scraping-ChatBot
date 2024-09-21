@@ -5,6 +5,13 @@ from langchain.vectorstores import FAISS
 from langchain.chains.question_answering import load_qa_chain
 from langchain_community.chat_models import ChatOpenAI
 
+# QUESTIONS:
+# 1. How do I save "models" so I don't have to train them every time
+# 2. I always have to recreate the vectors, is there anyway to save them?
+# 3. What's a better front end?
+# 4. How would I make this into an API that a user can make requests to?
+
+
 OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
 
 st.header("RHS Chatbot(Version 1)")
