@@ -1,35 +1,38 @@
-from google.oauth2 import service_account
-from googleapiclient.discovery import build
+import requests
+import json
 
-# Define the scope
-SCOPES = ['https://www.googleapis.com/auth/documents']
+url = "http://localhost:7071/api/http_trigger?messages=hi"
 
-# Add your service account file path
-SERVICE_ACCOUNT_FILE = 'google-creds.json'
 
-# Authenticate and construct service
-credentials = service_account.Credentials.from_service_account_file(
-    SERVICE_ACCOUNT_FILE, scopes=SCOPES)
-service = build('docs', 'v1', credentials=credentials)
+question_to_ask = "What math classes can I take?"
+messages = [
+                    {
+                        "role": "system",
+                        "content": "You are an AI chatbot that lives on the Rocklin High School website, more commonly referred to as \"RHS\". Answer questions people have! When people refer to \"you\", they're usually referring to Rocklin High School"
+                    },
+                    {
+                        "role": "user",
+                        "content": f"{question_to_ask}"
+                    }
+                ]
+data = {
+    "messages":messages,
+    "response_only": True
+}
 
-# Replace 'DOCUMENT_ID' with the actual ID of your Google Doc
-DOCUMENT_ID = '1VmGf6cu_DeplgjwzSiVuakIIkajq6H1i-p89ClGcqFU'
+response = requests.post(url)
 
-# Retrieve the document
-document = service.documents().get(documentId=DOCUMENT_ID).execute()
-print('The title of the document is: {}'.format(document.get('title')))
+print("Status Code", response.status_code)
 
-# Example: Insert text at the beginning of the document
-requests = [
-    {
-        'insertText': {
-            'location': {
-                'index': 1,
-            },
-            'text': 'Hello, this is a test!\n'
-        }
-    }
-]
+print(response.text)
 
-result = service.documents().batchUpdate(
-    documentId=DOCUMENT_ID, body={'requests': requests}).execute()
+# print("JSON Response ", response.text)
+# response_text = response.json()
+# print(response_text["choices"][0]["message"]["content"])
+# formatted_text = response_text.replace("'", '"')
+# print(formatted_text)
+# cut_text = json.loads(formatted_text)
+# print(type(cut_text))
+
+# json_data = [json.loads(s) for s in requests.get(url).text.strip().split("\n")]
+# print(json_data[0]['<some-subscriber-email>'][0]['action'])

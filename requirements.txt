@@ -1,11 +1,6 @@
-langchain_community
-langchain
-faiss-cpu
+# DO NOT include azure-functions-worker in this file
+# The Python Worker is managed by Azure Functions platform
+# Manually managing azure-functions-worker may cause unexpected issues
+
+azure-functions
 openai
-tiktoken
-google-api-python-client
-google-auth-httplib2
-google-auth-oauthlib
-gspread
-oauth2client
-google-auth
